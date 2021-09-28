@@ -1,11 +1,5 @@
 const mongoose = require('mongoose');
 
-const testerTask = new mongoose.Schema({
-    isCompleted: Boolean,
-    reference: String,
-    completedTime: String
-})
-
 const testerSchema = new mongoose.Schema({
     languages: [String],
     device: [String],
