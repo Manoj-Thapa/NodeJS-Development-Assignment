@@ -18,7 +18,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//All endpoints are combined int testerRouter
+//All endpoints are combined in the testerRouter
 app.use('/',testerRouter);
 
 app.listen(3000,() => {
