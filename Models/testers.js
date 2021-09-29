@@ -31,4 +31,4 @@ const testerSchema = new mongoose.Schema({
 
 const Tester = mongoose.model('Tester',testerSchema);
 
-module.exports = Tester;
+module.exports = Tester; 
